@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'LWCategory/*.{h,m}'
+  s.source_files  = "LWCategory/*.{h,m}"
   # 排除不需要的文件
   # s.exclude_files = "LWCategory/Exclude"
 
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "AFNetworking", 
+  s.dependency "AFNetworking"
 
 end
